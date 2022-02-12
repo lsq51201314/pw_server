@@ -1,0 +1,22 @@
+server:
+  port: 29999
+
+log:
+  level: "debug"
+  filename: "./log/log.txt"
+  maxsize: 10
+  maxage: 30
+  maxbackups: 7
+
+snowflake:
+  starttime: "2020-09-30"
+  machineid: 1
+
+mysql:
+  host: "127.0.0.1"
+  user: "root"
+  passwd: "123456"
+  dbname: "pw"
+  port: 3306
+  maxopen: 200
+  maxidle: 20
