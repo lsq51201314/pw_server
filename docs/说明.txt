@@ -1,0 +1,9 @@
+logservice      日志服务 除了authd、gacd 外，其他服务都要首先连接 LOG服务
+uniquenamed     客户唯一名服务 保证玩家的名字、榜排名在一组服务器中的唯一性
+authd           衔接数据库服务器
+gamedbd         保存玩家角色数据和帮派数据
+gfactiond       帮派创建和管理服务，不启动就会无法创建帮派
+gdeliveryd      服务器唯一设置，设置服务器的大部分属性，比如经验、PVP服还是PVE服等
+gacd            貌似是GM服务，
+glinkd          登录服务器，玩家通过该服务连接到服务群
+gs              地图服务，包括世界地图和副本地图
